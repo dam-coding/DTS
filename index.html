@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية - نظام دار الخياطة (DTS)</title>
+  <style>
+    :root {
+      --bg: #0b1424;
+      --card-bg: #121c2e;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #e5b842;
+      --border: #233554;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 800px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 35px 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+      color: var(--accent);
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    .date {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 25px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+    h2 {
+      color: #fff;
+      font-size: 1.25rem;
+      margin: 25px 0 10px;
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-right: 25px;
+      margin-bottom: 15px;
+    }
+    .highlight {
+      background: rgba(229, 184, 66, 0.1);
+      border-right: 4px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 4px;
+      color: var(--text);
+      margin: 15px 0;
+    }
+    .contact-box {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>سياسة الخصوصية لنظام DTS</h1>
+    <div class="date">تاريخ آخر تحديث: نوفمبر 2026</div>
+
+    <p>
+      نحن في <strong>DTS - دار الخياطة</strong> نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية وبيانات عملك التجاري. توضح هذه الوثيقة طبيعة المعلومات التي يتعامل معها النظام وكيفية استخدام خدمة المزامنة السحابية.
+    </p>
+
+    <h2>1. البيانات التي يجمعها النظام</h2>
+    <p>
+      يعمل نظام DTS كنظام محلي لإدارة المتاجر والمشاغل (ERP). يتم تخزين جميع البيانات التشغيلية (العملاء، الطلبات، المخزون، الحسابات) محلياً داخل قاعدة البيانات الخاصة بالمستخدم، ولا يقوم النظام بنقل أي بيانات إلى خوادم خارجية تابعة لنا.
+    </p>
+
+    <h2>2. استخدام صلاحيات Google Drive</h2>
+    <div class="highlight">
+      يطلب النظام وصولاً محدوداً إلى حساب Google الخاص بك عبر الصلاحية المعتمدة: 
+      <code>https://www.googleapis.com/auth/drive.file</code>
+    </div>
+    <p>يقتصر استخدام هذه الصلاحية حصرياً على الأغراض التالية:</p>
+    <ul>
+      <li>إنشاء مجلد مخصص داخل مساحتك في Google Drive تحت اسم <code>tailor_db</code>.</li>
+      <li>رفع ملف النسخة الاحتياطية المشفرة وتحديثه تلقائياً لتمكينك من استعادة بياناتك أو الوصول إليها عبر تطبيق الهاتف.</li>
+      <li><strong>عدم الوصول لباقي الملفات:</strong> النظام لا يملك أي صلاحية لعرض، تعديل، أو حذف أي ملفات أو مجلدات أخرى موجودة على حسابك الشخصي في Google Drive.</li>
+    </ul>
+
+    <h2>3. مشاركة وأمان البيانات</h2>
+    <p>
+      نحن لا نقوم ببيع، تأجير، أو مشاركة بيانات النسخ الاحتياطي الخاصة بك مع أي طرف ثالث تحت أي ظرف. تتم كافة عمليات التشفير والرفع عبر قنوات اتصال آمنة ومباشرة بين جهازك وخوادم Google الرسمية.
+    </p>
+
+    <h2>4. التحكم وإلغاء الربط</h2>
+    <p>
+      يمكنك في أي وقت إلغاء صلاحية وصول النظام إلى Google Drive عبر إدارة حساب Google الخاص بك من خلال الرابط:
+      <a href="https://myaccount.google.com/permissions" target="_blank" style="color: var(--accent);">إدارة أذونات حساب Google</a>.
+    </p>
+
+    <div class="contact-box">
+      <h2>5. التواصل والدعم</h2>
+      <p>إذا كان لديك أي استفسار حول سياسة الخصوصية أو آلية المزامنة السحابية، يمكنك التواصل مع المطور عبر البريد الإلكتروني:</p>
+      <p><strong style="color: var(--accent);">mhmdabdalrazg@gmail.com</strong></p>
+    </div>
+  </div>
+
+</body>
+</html>
